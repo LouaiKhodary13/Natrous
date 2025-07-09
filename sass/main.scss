@@ -1,3 +1,4 @@
+@import 'abstract/mixins';
 @import 'base/base';
 @import 'abstract/variables';
 @import 'base/typeography';
@@ -12,7 +13,7 @@
 @import 'base/animations';
 @import 'base/utlis';
 @import 'layout/header';
-@import 'abstract/mixins';
+
 @import 'layout/grid';
 @import 'abstract/functions';
 @import 'components/compostion';
