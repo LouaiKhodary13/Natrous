@@ -1,6 +1,6 @@
 # 🌿 Natrou Website
 
-This is the official website for **Natrou**, a company offering high-quality natural products including spices, blends, and herbs.
+This is the official website for  Natrous
 
 ## 🔗 Live Website
 
@@ -10,7 +10,6 @@ This is the official website for **Natrou**, a company offering high-quality nat
 
 - Clean and modern UI for showcasing natural products
 - Fully responsive design (desktop, tablet, mobile)
-- Multilingual layout ready for Arabic and German audiences
 - Optimized images for performance
 - SEO-friendly semantic HTML structure
 
@@ -19,8 +18,8 @@ This is the official website for **Natrou**, a company offering high-quality nat
 - HTML5
 - CSS
 - SCSS (with `@include` for media queries and mixins)
-- Responsive Design** using media queries
-- Netlify** for fast and secure hosting
+- Responsive Design using media queries
+- Netlify for fast and secure hosting
 - 
 ## 💡 About the project
 
