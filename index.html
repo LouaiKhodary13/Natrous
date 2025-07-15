@@ -86,16 +86,23 @@
           <div class="col-1-of-2">
             <div class="compostion">
               <img
-                class="compostion__photo compostion__photo--1"
                 src="img/nat-1-large.jpg"
+                class="compostion__photo compostion__photo--1"
+                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
                 alt="nat-1" />
+
               <img
-                class="compostion__photo compostion__photo--2"
                 src="img/nat-2-large.jpg"
+                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
+                class="compostion__photo compostion__photo--2"
                 alt="nat-2" />
               <img
-                class="compostion__photo compostion__photo--3"
                 src="img/nat-3-large.jpg"
+                class="compostion__photo compostion__photo--3"
+                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+                sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
                 alt="nat-3" />
             </div>
           </div>
@@ -374,7 +381,18 @@
     </main>
     <footer class="footer">
       <div class="footer__logo-box">
-        <img src="img/logo-green-2x.png" alt="logo" class="footer__logo" />
+        <!-- art direction for images -->
+        <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)" />
+          <img
+            srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+            alt="logo" />
+        </picture>
       </div>
       <div class="row">
         <div class="col-1-of-2">
